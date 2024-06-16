@@ -1,0 +1,115 @@
+{% extends 'layout/master-layout.html.twig' %}
+
+{% block title %}
+    
+    <title>Chat application - Start chatting with customers</title>
+    <meta name="description" content="Great software that allows you to chat from any place at any time without any interruption.">
+{% endblock %}
+
+{% block body %}
+
+    <section class="container triptych">
+
+        <h2 class="section__title">Features for a better experience</h2>
+
+        <div class="triptych__wrapper">
+            <div class="card">
+                <div class="card__wrapper">
+                    <img src="./assets/icons/camera.svg" alt="Camera icon">
+                    <p>Video messaging</p>
+                </div>
+                <p>This software is very easy for you to manage you can use it as you wish.</p>
+            </div>
+            <div class="card">
+                <div class="card__wrapper">
+                    <img src="./assets/icons/wifi.svg" alt"Wifi icon">
+                    <p>Keep safe & private</p>
+                </div>
+                <p>This software is very easy for you to manage you can use it as you wish.</p>
+            </div>
+            <div class="card">
+                <div class="card__wrapper">
+                    <img src="./assets/icons/timer.svg" alt"Timer icon">
+                    <p>Save you time</p>
+                </div>
+                <p>This software is very easy for you to manage you can use it as you wish.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="alternate">
+
+        <div class="bg--white">
+            <article class="container alternate__article">
+                <img src="./assets/woman-with-headset-video-call.webp" alt="Woman with headset video call">
+                <div class="article__content">
+                    <h3 class="content__title">Meet your customers, with live video chat</h3>
+                    <p class="content__desc">Great software that allows you to chat from any place at any time
+                        without
+                        any interruption. Great software that allows you to chat from any place at any time without
+                        any
+                        interruption. Great software that allows you to chat from any place at any time without any
+                        interruption.</p>
+                </div>
+            </article>
+        </div>
+
+        <article class="container alternate__article">
+            <img src="./assets/direct-conversation.webp" alt="Screenshot of a fictive conversation">
+            <div class="article__content">
+                <h3 class="content__title">Start selling directly inside conversations</h3>
+                <p class="content__desc">Great software that allows you to chat from any place at any time without
+                    any interruption.</p>
+                <a href="#" class="btn">Start chatting now</a>
+            </div>
+        </article>
+
+        <article class="container alternate__article no--mobile">
+            <img src="./assets/example-inbox.webp" alt="Screenshot of a fictive inbox">
+            <div class="article__content">
+                <h3 class="content__title">Get direct orders from your customers</h3>
+                <p class="content__desc">Great software that allows you to chat from any place at any time without
+                    any interruption.</p>
+                <div class="stats__wrapper">
+                    <div class="stat__wrapper">
+                        <p class="stat__number">4.3k</p>
+                        <p class="stat__expl">Websites powering</p>
+                    </div>
+                    <div class="stat__wrapper">
+                        <p class="stat__number">7M+</p>
+                        <p class="stat__expl">Chats in last 2022</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="bg--purple">
+        <h2 class="section__title">What our customer are saying</h2>
+        <div class="container testimonials">
+            <div class="testimonials__wrapper">
+                <p class="testimonials__content">“The best ui kit for developers. So easy to implement and publish.”
+                </p>
+                <div class="testimonials__author">
+                    <img src="./assets/img-user-1.png" alt="Picture of Eli Json">
+                    <div class="author__infos">
+                        <p class="author__name">Eli JSON</p>
+                        <p class="author__job">Medical assistant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials__wrapper">
+                <p class="testimonials__content">“Rareblocks helps you optimize for engagement.”</p>
+                <div class="testimonials__author">
+                    <img src="./assets/img-user-2.png" alt="Picture of Eli Json">
+                    <div class="author__infos">
+                        <p class="author__name">Eli JSON</p>
+                        <p class="author__job">Medical assistant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
